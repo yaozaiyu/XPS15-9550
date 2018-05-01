@@ -1,4 +1,4 @@
-Dell Precision 5510 4K High Sierra Installation
+Dell XPS 9550 4K High Sierra Installation
 
 This repository is based on wmchris' high sierra repo for XPS15 9550.
 
@@ -7,8 +7,6 @@ You may refer to darkhandz's Chinese tutorial for calculating slider values.
 Directory Info
 
 CLOVER: clover configuration files for daily usage
-This configuration does NOT contain apfs.efi necessary for those who use APFS.
-POST-INSTALL: files needed for post-installation set-ups.
 Installation Pitfalls
 
 You may have to delete all kexts that start with Brcm in CLOVER/kexts if you're stuck in an infinite loop when you attempt to boot into the installer.
@@ -18,7 +16,7 @@ The Current Status:
 Working:
 
 Built-in speakers and audio jack
-Samsung SM951 works out of the box, no NVMe kext needed. (Now I'm using Toshiba XG3 with 4K sector)
+Samsung SM951 works out of the box, no NVMe kext needed. (Now I'm using WDC WDS512G1X0C-00ENX0)
 Intel HD530 with 4K display
 Typc-C plug
 Bluetooth
